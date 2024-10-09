@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">     
+    
+    <modelVersion>4.0.0</modelVersion>     
+  
+    <groupId>ms</groupId>     
+    <artifactId>perpustakaan-ku</artifactId>      
+    <version>1.0</version>      
+    <packaging>pom</packaging>
+        
+    <modules>                  
+        <module>perpusku-frontend-gui</module>
+        <module>perpusku-frontend-cli</module>            
+        <module>perpusku-service</module>            
+        <module>perpusku-data</module>            
+        <module>perpusku-domain</module>      
+    </modules>    
+    
+    <properties>            
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>            
+        <maven.compiler.source>18</maven.compiler.source>            
+        <maven.compiler.target>18</maven.compiler.target>        
+    </properties>
+        
+    <build>            
+        <pluginManagement>                  
+            <plugins>                        
+                <plugin>                              
+                    <artifactId>maven-compiler-plugin</artifactId>                              
+                    <version>3.8.0</version>                          
+                </plugin>
+            </plugins>              
+        </pluginManagement>        
+    </build>      
+
+</project>
