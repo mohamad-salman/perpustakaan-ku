@@ -6,19 +6,19 @@
     <modelVersion>4.0.0</modelVersion>
     
     <parent>
-        <groupId>ms</groupId>
+        <groupId>ms.perpustakaan.perpustakaan-ku</groupId>
         <artifactId>perpustakaan-ku</artifactId>
         <version>1.0</version> 
     </parent>
     
-    <groupId>ms</groupId>
+    <groupId>ms.perpustakaan.perpustakaan-ku</groupId>
     <artifactId>perpusku-frontend-gui</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
     
     <dependencies>
         <dependency>
-            <groupId>ms</groupId>
+            <groupId>ms.perpustakaan.perpustakaan-ku</groupId>
             <artifactId>perpusku-service</artifactId>
             <version>1.0</version>
         </dependency>
